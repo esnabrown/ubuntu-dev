@@ -1,5 +1,5 @@
 sudo /etc/init.d/rabbitmq-server stop
-cd /usr/lib/rabbitmq/plugins
+cd /usr/lib/rabbitmq/lib/rabbitmq_server-2.4.0/plugins
 
 sudo wget http://www.rabbitmq.com/releases/plugins/v2.4.0/mochiweb-2.4.0.ez
 sudo wget http://www.rabbitmq.com/releases/plugins/v2.4.0/webmachine-2.4.0.ez
