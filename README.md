@@ -1,12 +1,19 @@
 # What It Do
 
 These install scripts are intened to help you pull down, build and install the following:
+* chromium
+* couchbase 1.0.1
+* erlang R14B02
+* mongodb 1.6.5
+* mono 2.10
+* monodevelop 2.4.2
 * ncurses5.7 (prerequisite for erlang)
+* node.js 0.4.3
+* npm 0.3.17
 * open JDK 6 (prerequisite for erlang installed via apt-get in the erlang script)
-* ruby-1.9.2-p136
-* mono-2.10
-* erlang-R14B02
-* nodejs-0.4.3
+* rabbitmq 2.4.0 (management plugins provided in default script and as a seperate script)
+* redis 2.2.2
+* ruby 1.9.2-p136
 
 You can certainly update these over time to build newer packages. If you run into errors or bone-head things I did please feel free to submit improvements.
 
@@ -14,11 +21,11 @@ You can certainly update these over time to build newer packages. If you run int
 
 Pull it down into a directory and
 	chmod 777 *.sh
-to make them all executable. I highly recommend you sudo to run them so that you don't run into any weird permissions issues.
+to make them all executable. You shouldn't have to sudo the scripts as they all use sudo now and should prompt you for the password when appropriate. 
 
 You MUST run the install-ncurses.sh before running install-erlang.sh!
 
-# Install Paths
+# Install Paths (Mono and Node.js)
 
 Everything installs to the installers default with the exception of Mono and node due to the fairly rapid frequency of release. The configure is run with --prefix to point to the version specific directories. This *should* allow you to have multiple versions installed on the same system and then you can either add a specific version to your PATH in .bashrc or use scripts to change environments with specific version numbers.
 
@@ -34,6 +41,14 @@ Then you can run
 	source ~/.bashrc
 
 To load the new PATH at the console.
+
+# A Word About MonoDevelop
+
+This install is probably the most error prone and complex thing I've ever attempted to install on anything ever. You'll have two options for running monodevelop, the simplest being the launcher script /src/monodevelop/monodevelop-launcher.sh. The more complex being taking the contents of that script and using them in your ~/.bashrc. Currently, the install script I wrote doesn't do anything other than attempt to get a build to work.
+
+# Services
+
+Right now the install scripts for rabbitmq, mongodb and couchbase all install as services. Redis does not. I'd be thrilled if anyone wanted to contribute the /etc/init.d script to run Redis as a service.
 
 # Uhhhh
 

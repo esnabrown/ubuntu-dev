@@ -3,7 +3,7 @@ mkdir src
 cd src
 mkdir redis
 cd redis
-wget http://redis.googlecode.com/files/redis-2.2.2.tar.gz
+sudo wget http://redis.googlecode.com/files/redis-2.2.2.tar.gz
 tar xzf redis-2.2.2.tar.gz
 cd redis-2.2.2
 sudo make
