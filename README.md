@@ -1,19 +1,19 @@
 # What It Do
 
 These install scripts are intened to help you pull down, build and install the following:
-* chromium
-* couchbase 1.0.1
-* erlang R14B02
-* mongodb 1.6.5
-* mono 2.10
-* monodevelop 2.4.2
-* ncurses5.7 (prerequisite for erlang)
-* node.js 0.4.3
-* npm 0.3.17
-* open JDK 6 (prerequisite for erlang installed via apt-get in the erlang script)
-* rabbitmq 2.4.0 (management plugins provided in default script and as a seperate script)
-* redis 2.2.2
-* ruby 1.9.2-p136
+*  chromium
+*  couchbase 1.0.1
+*  erlang R14B02
+*  mongodb 1.6.5
+*  mono 2.10
+*  monodevelop 2.4.2
+*  ncurses5.7 (prerequisite for erlang)
+*  node.js 0.4.3
+*  npm 0.3.17
+*  open JDK 6 (prerequisite for erlang installed via apt-get in the erlang script)
+*  rabbitmq 2.4.0 (management plugins provided in default script and as a seperate script)
+*  redis 2.2.2
+*  ruby 1.9.2-p136
 
 You can certainly update these over time to build newer packages. If you run into errors or bone-head things I did please feel free to submit improvements.
 
