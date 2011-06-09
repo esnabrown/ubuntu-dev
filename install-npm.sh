@@ -1,9 +1,5 @@
 cd /src
 mkdir npm
-cd npm
-
 git clone http://github.com/isaacs/npm.git
 cd npm
-git checkout v0.3.17
-alias sudo='sudo env PATH=$PATH'
-sudo node cli.js install
+sudo /opt/node48/bin/node ./cli.js install -g

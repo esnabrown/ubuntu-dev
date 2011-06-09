@@ -7,7 +7,7 @@ These install scripts are intened to help you pull down, build and install the f
 *  mono 2.10
 *  monodevelop 2.4.2
 *  ncurses5.7 (prerequisite for erlang)
-*  node.js 0.4.3
+*  node.js 0.4.8
 *  npm 0.3.17
 *  open JDK 6 (prerequisite for erlang installed via apt-get in the erlang script)
 *  rabbitmq 2.4.0 (management plugins provided in default script and as a seperate script)
