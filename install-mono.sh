@@ -1,6 +1,4 @@
-cd /
-mkdir src
-cd src
+cd /src
 mkdir mono-2.10
 cd mono-2.10
 

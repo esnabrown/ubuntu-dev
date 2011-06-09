@@ -1,6 +1,4 @@
-cd /
-mkdir src
-cd src
+cd /src
 mkdir redis
 cd redis
 sudo wget http://redis.googlecode.com/files/redis-2.2.2.tar.gz

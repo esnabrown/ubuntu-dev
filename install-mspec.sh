@@ -1,6 +1,4 @@
-cd /
-mkdir src
-cd src
+cd /src
 mkdir mspec
 cd mspec
 

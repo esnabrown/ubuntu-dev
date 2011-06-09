@@ -1,6 +1,4 @@
-cd /
-mkdir src
-cd src
+cd /src
 mkdir node
 cd node
 sudo get http://nodejs.org/dist/node-v0.4.3.tar.gz

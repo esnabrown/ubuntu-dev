@@ -1,10 +1,9 @@
 # What It Do
 
 These install scripts are intened to help you pull down, build and install the following:
-*  chromium
-*  couchbase 1.0.1
-*  erlang R14B02
-*  mongodb 1.6.5
+*  chromium 12
+*  couchbase 1.1
+*  erlang R14B03
 *  mono 2.10
 *  monodevelop 2.4.2
 *  ncurses5.7 (prerequisite for erlang)
@@ -21,7 +20,8 @@ You can certainly update these over time to build newer packages. If you run int
 
 Pull it down into a directory and
 	chmod 777 *.sh
-to make them all executable. You shouldn't have to sudo the scripts as they all use sudo now and should prompt you for the password when appropriate. 
+    ./init.sh
+to make them all executable and create the base source directory. You shouldn't have to sudo the scripts as they all use sudo now and should prompt you for the password when appropriate. 
 
 You MUST run the install-ncurses.sh before running install-erlang.sh!
 
@@ -48,7 +48,7 @@ This install is probably the most error prone and complex thing I've ever attemp
 
 # Services
 
-Right now the install scripts for rabbitmq, mongodb and couchbase all install as services. Redis does not. I'd be thrilled if anyone wanted to contribute the /etc/init.d script to run Redis as a service.
+Right now the install scripts for rabbitmq and couchbase all install as services. Redis does not. I'd be thrilled if anyone wanted to contribute the /etc/init.d script to run Redis as a service.
 
 # Uhhhh
 

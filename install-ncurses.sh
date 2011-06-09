@@ -1,6 +1,4 @@
-cd /
-mkdir src
-cd src
+cd /src
 mkdir ncurses
 cd ncurses
 sudo wget https://launchpad.net/ubuntu/+archive/primary/+files/ncurses_5.7%2B20100626.orig.tar.gz

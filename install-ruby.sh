@@ -1,6 +1,4 @@
-cd /
-mkdir /src
-cd src
+cd /src
 mkdir ruby
 cd ruby
 sudo wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
