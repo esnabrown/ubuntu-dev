@@ -6,6 +6,6 @@ wget http://www.erlang.org/download/otp_src_R14B03.tar.gz
 tar -xvzf otp_src_R14B03.tar.gz
 chmod -R 777 otp_src_R14B03
 cd otp_src_R14B03
-./configure
-make
-make install
+sudo ./configure
+sudo make
+sudo make install
